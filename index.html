@@ -36,7 +36,9 @@
   }
   .buttons {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column; 
+    align-items: center;
+    gap: 15px;    
     margin-top: 40px;
   }
   .btn {
@@ -49,10 +51,6 @@
     text-align: center;
     color: #fff;
   }
-  /* Updated blue button background */
-  .btn.blue {
-    background: linear-gradient(to right, #1e90ff, #00bfff);
-  }
   footer {
     margin-top: 50px;
     text-align: center;
@@ -64,65 +62,84 @@
 <div class="container">
   <div class="logo"></div>
 
-  <h2>GAME OVERVIEW</h2>
-  <p>Welcome to the E-Raffle—where we break away from old-school raffles and introduce a smarter, more exciting way to win. This next-generation digital raffle experience is engineered to be unique, fair, rewarding, and truly engaging. Unlike traditional raffles where you simply submit your entry and wait, our system brings a fresh and innovative approach that empowers every participant. It’s designed to give you better chances and a winning feeling even before the draw begins—all without spending more. No gimmicks. No hidden conditions. Pure opportunity. Zero complications. Just a smarter, modern, and more thrilling way to win!</p>
+  <h2>WELCOME TO NEXUS</h2>
+  <p>Nexus is your members-only platform designed to connect buyers, sellers, affiliate marketers, and content creators in one community-driven space. As a member, you gain access to tools, opportunities, and exclusive benefits that help you grow, share, and engage — plus enjoy our free promotional raffle and referral program as a bonus.</p>
 
-  <h2>RAFFLE MECHANICS</h2>
-  <p>All participants automatically receive an initial raffle number upon signing up to our online registration form, with each entry costing ₱200 and making you eligible for the draw. Our next-generation raffle system doesn’t just stop there—it also gives you the opportunity to increase your chances of winning by inviting others to join the raffle. Each new participant you bring adds extra ways for you to be selected, while all winners are chosen fairly and randomly using our advanced Raffle Number Generator. It’s simple, transparent, and designed to make every moment exciting.</p>
-
-  <h2>PRIZE STRUCTURE</h2>
+  <h2>MEMBERSHIP</h2>
+  <p><strong>1. Membership Includes</strong><br>
+  As a member of <strong>Nexus</strong>, you gain access to a vibrant all-in-one community where you can:<br>
+  • Buy, sell, or promote products and services.<br>
+  • Share your affiliate links.<br>
+  • Showcase your channel as a content creator.<br>
+  • Connect with members to learn, collaborate, and grow your network.<br>
+  • Support others by purchasing their products, services, or following their social media channels.<br>
+  • Participate in our free promotional raffle.<br>
+  • Join the referral program to earn rewards.<br>
+  • Track your account, total referral bonuses earned, bonus raffle entries, and view draw results.<br><br>
+  <strong>2. Membership Validity</strong><br>
+  • Membership is valid for one (1) month starting from the completion of the raffle draw.<br>
+  •There is no renewal system because each batch starts fresh. When the next batch opens, everything resets — the community, referral codes, raffle entries, and access to all tools.<br>
+  •If you wish to join the next cycle, simply wait for the announcement or invitation for the upcoming batch.</p>
+ 
+  <h2>FREE RAFFLE</h2>
+  <p>• The <strong>Free Raffle</strong> is a bonus benefit for all Nexus members — designed to reward your participation and engagement in the community.<br>
+  • As a member, you automatically receive a unique initial raffle number. To make the experience more exciting and give members a higher chance of winning, you can boost your chances without any additional cost by promoting the Nexus platform to others.<br>
+  • Each new member you bring in grants 1 additional bonus raffle entry. The more you share, the better your chances of winning — ensuring everyone has a fair and rewarding opportunity.<br><br>
+  <strong>Fair and Transparent Draw</strong><br>
+  • The draw begins once the <strong>Promo End Timer reaches 100%</strong>.<br>
+  • Raffle winners are selected randomly using our advanced <strong>Raffle Number Generator</strong>. The process is <strong>transparent, unbiased, and designed to make every draw exciting</strong>.<br>
+  • To keep yourself updated on whether the draw has started, please visit the <strong>Promo End Timer</strong>. You can also <strong>view your unique initial raffle number, bonus raffle entries, and referral code</strong>, and check the <strong>Raffle Winners</strong> inside the <strong>Account Lookup page</strong>.</p> 
+  
+  <h2>RAFFLE PRIZES</h2>
   <p><strong>Prize Tiers:</strong><br>
   • Jackpot: ₱1,000,000 (1 lucky winner)<br>
   • Mega: ₱100,000 (3 lucky winners)<br>
   • Major: ₱30,000 (5 lucky winners)<br>
   • Mini: ₱2,000 (25 lucky winners)<br><br>
-  For Mega, Major, and Mini, each winner receives the same amount.</p>
+  <strong>For Mega, Major, and Mini, each winner receives the same amount</strong>.</p>
 
-  <h2>REFERRAL SYSTEM</h2>
-  <p>Take your raffle experience to the next level! Our unique referral system sets us apart from ordinary raffles by bringing you a chance to earn rewards and boost your chances to win at the same time.</p>
-  <p>• ₱100 Referral Bonus — earn instantly for each new participant you bring in.<br>
-  • Bonus Raffle Entries — every 1 successful referrals grant you 1 additional entry in the raffle.<br>
-  • No Limits — Unlimited Potential; refer as many as you can and maximize both your rewards and winning opportunities.</p>
-  <p>Empower yourself, inspire others, and turn every connection into a chance to bag a prize in the raffle and an opportunity to earn while waiting for the draw—all while enjoying the thrill of the game and the joy of sharing it with others!</p>
+  <h2>REFERRAL PROGRAM</h2>
+  <p>The Referral Program is designed to reward members for helping grow the Nexus community. By inviting others to join, you not only contribute to a thriving, engaging platform but also enjoy extra benefits for yourself.<br><br>
+  <strong>Additional Bonus Raffle Entries</strong><br>
+  For every successful referral you bring into Nexus, you receive <strong>1 extra raffle entry</strong> for the Free Raffle.<br>
+  •	These entries are <strong>added automatically</strong> to your account once the referral joins and is verified.<br>
+  •	There is <strong>no limit</strong> to how many bonus entries you can earn — the more people you refer, the higher your chances of winning in the Free Raffle.<br>
+  •	Bonus entries <strong>stack on top of your initial raffle entry</strong>, giving you an advantage without any additional cost.<br>
+  •	This system ensures that all members have a <strong>fair and transparent opportunity</strong> to win, while also encouraging growth and engagement within the community.<br><br>
+  <strong>Referral Bonus</strong><br>
+  As part of the Referral Program, each successful member you bring into Nexus earns you a <strong>₱100 referral bonus</strong><br>.
+  •	The Referral bonus is <strong>automatically processed</strong> once the system detects your referral and will be <strong>sent directly to your e-wallet</strong>.<br>
+  •	There is <strong>no limit</strong> to how many referral bonuses you can earn — the more members you invite, the more rewards you accumulate.<br>
+  •	Referral bonuses are <strong>separate from bonus raffle entries</strong>, giving you both <strong>monetary rewards</strong> and <strong>higher chances of winning</strong> in the Free Raffle.</p>
 
-  <h2>ACCOUNT LOOKUP PAGE</h2>
-  <p>Easy access to check your account, including your referral code, initial raffle entry, and updates on total invites, referral bonuses earned, and bonus raffle entries.</p>
-
-  <h2>SLOT PROGRESS BAR</h2>
-  <p>Shows the real-time progress of total submitted entries. Updates automatically as new participants join.</p>
-
+  <h2>MEMBER TOOLS<h2>
+  <p><strong>ACCOUNT LOOKUP PAGE</strong><br>
+  Easy access to check your account, including your referral code, initial raffle entry, and updates on total invites, referral bonuses earned, and bonus raffle entries.<br><br>
+  <strong>Promo End Timer</strong><br>
+  The progress bar acts as a timer. It gradually fills up, and once it reaches 100%, the promo officially ends — including the registration and referral program. When the promo closes, the raffle draw will automatically begin.<br><br>
+  <strong>Raffle Winners</strong><br>
+  View the official list of winners for the Free Raffle.</p>
+  
   <h2>PAYOUT</h2>
   <p>• Raffle Prizes: Processing will begin on the same day after the draw is completed.<br>
   • Referral Bonuses: Due to high volumes, processing may take 24 to 72 hours.<br>
-  • For the Jackpot and Mega prize winners, we will reach out to ensure they can claim their prize properly, as Maya sets limits based on the participant’s account status.</p>
-
-  <h2>GAME POLICY</h2>
-  <p>• Each participant is entitled to one valid entry only.<br>
-  • Duplicate or multiple submissions using the same personal details will be automatically removed.<br>
-  • The raffle draw will commence once the slot progress reaches 100%.<br>
-  • All raffle numbers are non-transferable.<br>
-  • All results generated by the system are final and irrevocable.<br>
-  • Any submission with invalid or altered proof of payment will void the claim.<br>
-  • The organizer is not responsible for lost or misdirected winnings caused by incorrect or incomplete e-wallet details provided by the participant.<br>
-  • By submitting the registration form, the participant fully agrees to all raffle policies, prize structures, and payout schedules.<br>
-  • No refunds under any circumstances.<br>
-  • Exclusive service provider: Only Maya is accepted for all transactions and payments. This ensures a seamless experience and also avoids paying transfer fees. All other payment methods are not supported.</p>
-
-  <h2>WHY YOU SHOULD JOIN</h2>
-  <p>The E-Raffle isn’t just another draw—it’s a smarter, more empowering way to win. You’re not simply entering a raffle; you’re joining a system built to reward your participation, your initiative, and your connections. With life-changing prizes, instant earning potential, and transparent mechanics powered by advanced randomization, every participant gets a fair shot and real opportunities. Whether you’re aiming for the jackpot, enjoying the thrill of the game, or taking advantage of unlimited earning potential, this is the kind of raffle that truly gives back. No gimmicks, no tricks—just real rewards, real chances, and real winners.</p>
+  • For the Jackpot and Mega prize winners, we will reach out to ensure they can claim their prize properly, as e-wallet providers set limits based on each participant’s account status.<br>
+  • Transfer fees may apply for non-Maya accounts for both Raffle Prizes and Referral Bonuses.</p>
 
   <div class="buttons">
-    <a class="btn" style="background: linear-gradient(to right, #064f27, #0ca54f);" href="https://rebrand.ly/E-RAFFLE/REGISTER" target="_blank">REGISTER</a>
-    <a class="btn" style=" background: linear-gradient(to right, #003d7a, #008cff);" href="https://rebrand.ly/e-Raffle/SlotProgress" target="_blank">SLOT PROGRESS</a>
+    <a class="btn" style="background: linear-gradient(to right, #003d7a, #008cff);" href="https://rebrand.ly/E-Raffle_AccountLookUp" target="_blank">ACCOUNT LOOKUP</a>
+    <a class="btn" style=" background: linear-gradient(to right, #00b3ff, #33ccff);" href="https://rebrand.ly/e-Raffle/SlotProgress" target="_blank">PROMO END TIMER</a>
+    <a class="btn" style=" background: linear-gradient(to right, #064f27, #0ca54f);" href="https://rebrand.ly/e-Raffle/Winners" target="_blank">RAFFLE WINNERS</a>
   </div>
 
   <footer>
-    © 2025 E-Raffle • All rights reserved.
+    © 2025 NEXUS-PLATFORM • All rights reserved.
   </footer>
 </div>
 </body>
 
 </html>
+
 
 
 
